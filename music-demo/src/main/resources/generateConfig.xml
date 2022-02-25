@@ -1,0 +1,64 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE generatorConfiguration-->
+<!--        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"-->
+<!--        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">-->
+
+<!--<generatorConfiguration>-->
+<!--    &lt;!&ndash;数据库驱动&ndash;&gt;-->
+<!--    <classPathEntry    location="D:\maven\apache-maven-3.6.3\warehouse\mysql\mysql-connector-java\8.0.21\mysql-connector-java-8.0.21.jar"/>-->
+<!--    <context id="DB2Tables" targetRuntime="MyBatis3">-->
+
+<!--        <commentGenerator>-->
+<!--            &lt;!&ndash; 是否去除自动生成的注释 &ndash;&gt;-->
+<!--            <property name="suppressAllComments" value="true" />-->
+<!--            <property name="suppressDate" value="true"/>-->
+<!--        </commentGenerator>-->
+
+<!--        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"-->
+<!--                        connectionURL="jdbc:mysql://localhost:3306/music?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;useUnicode=true&amp;characterEncoding=utf-8"-->
+<!--                        userId="root"-->
+<!--                        password="mjy600811">-->
+<!--            &lt;!&ndash;避免生成其它库的同名表&ndash;&gt;-->
+<!--            <property name="nullCatalogMeansCurrent" value="true"/>-->
+<!--        </jdbcConnection>-->
+
+
+
+<!--        &lt;!&ndash; 默认为false，把JDBC DECIMAL 和NUMERIC类型解析为Integer，为true时 把JDBC DECIMAL 和NUMERIC类型解析为java.math.BigDecimal &ndash;&gt;-->
+<!--        <javaTypeResolver >-->
+<!--            <property name="forceBigDecimals" value="false" />-->
+<!--        </javaTypeResolver>-->
+
+<!--        &lt;!&ndash;targetProject生成entity的位置&ndash;&gt;-->
+<!--        <javaModelGenerator targetPackage="com.mjy.musicdemo.entity" targetProject="src\main\java">-->
+<!--            &lt;!&ndash; enableSubPackages:是否让schema作为包的后缀 &ndash;&gt;-->
+<!--            <property name="enableSubPackages" value="false" />-->
+<!--            &lt;!&ndash; 从数据库返回的值被清理前后的空格 &ndash;&gt;-->
+<!--            <property name="trimStrings" value="true" />-->
+<!--        </javaModelGenerator>-->
+
+<!--        &lt;!&ndash; targetProject：mapper映射文件生成的位置 &ndash;&gt;-->
+<!--        <sqlMapGenerator targetPackage="mapper"  targetProject="src\main\resources">-->
+<!--            &lt;!&ndash; enableSubPackages:是否让schema作为包的后缀 &ndash;&gt;-->
+<!--            <property name="enableSubPackages" value="false" />-->
+<!--        </sqlMapGenerator>-->
+
+<!--        &lt;!&ndash; targetProject：mapper接口生成的的位置 &ndash;&gt;-->
+<!--        <javaClientGenerator type="XMLMAPPER" targetPackage="com.mjy.musicdemo.dao"  targetProject="src\main\java">-->
+<!--            <property name="enableSubPackages" value="false" />-->
+<!--        </javaClientGenerator>-->
+
+<!--        &lt;!&ndash; 指定数据表 &ndash;&gt;-->
+<!--        <table tableName="admin" enableCountByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" enableSelectByExample="false"></table>-->
+<!--        <table tableName="collect" enableCountByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" enableSelectByExample="false"></table>-->
+<!--        <table tableName="comment" enableCountByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" enableSelectByExample="false"></table>-->
+<!--        <table tableName="consumer" enableCountByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" enableSelectByExample="false"></table>-->
+<!--        <table tableName="list_song" enableCountByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" enableSelectByExample="false"></table>-->
+<!--        <table tableName="ranks" enableCountByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" enableSelectByExample="false"></table>-->
+<!--        <table tableName="singer" enableCountByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" enableSelectByExample="false"></table>-->
+<!--        <table tableName="song" enableCountByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" enableSelectByExample="false"></table>-->
+<!--        <table tableName="song_list" enableCountByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" enableSelectByExample="false"></table>-->
+
+
+<!--    </context>-->
+<!--</generatorConfiguration>-->
