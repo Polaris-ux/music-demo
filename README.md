@@ -1,8 +1,20 @@
 # music-demo
 SpringBoot+Mybatis音乐网站
+# 技术
+## 前端
+Vue <br/>
+Vue-Router <br/>
+ElementUI <br/>
+VCharts <br/>
 
-music-client是前台页面
+## 后端
+SpringBoot <br/>
+MyBatis <br/>
 
-music-manage是后台管理页面
+## 展示 
+### 前台
+### 后台管理
 
-music-demo是服务端的代码
+
+
+
